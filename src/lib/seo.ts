@@ -5,9 +5,9 @@ import {
   PAYMENT_TERMS,
   SIGNATURE_UNITS,
 } from "@/data/creekview";
+import { SITE_URL } from "@/lib/site";
 
-/** Production site origin — update if the domain changes. */
-export const SITE_URL = "https://creekview1.lovable.app";
+export { SITE_URL };
 
 export const SITE = {
   name: "CreekView New Cairo",

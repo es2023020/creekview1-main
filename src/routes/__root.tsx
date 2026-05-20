@@ -7,6 +7,7 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
+import { SiteAnalytics } from "@/components/creekview/SiteAnalytics";
 import { SiteHeader } from "@/components/creekview/SiteHeader";
 import { SiteFooter } from "@/components/creekview/SiteFooter";
 import { Toaster } from "@/components/ui/sonner";
@@ -109,6 +110,7 @@ function RootComponent() {
         <Outlet />
       </main>
       <SiteFooter />
+      <SiteAnalytics />
       <Toaster richColors position="top-center" />
     </QueryClientProvider>
   );
