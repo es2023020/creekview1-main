@@ -1,0 +1,1 @@
+ALTER FUNCTION public.validate_lead() SET search_path = public;
