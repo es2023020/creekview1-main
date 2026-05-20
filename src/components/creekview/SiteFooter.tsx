@@ -6,7 +6,8 @@ export const CONTACT_PHONE = "+201014681993";
 /** Shown where a human-readable dial string is intentional (schemas, debugging). Prefer actions without exposing in UI copy. */
 export const CONTACT_PHONE_DISPLAY = "+20 101 468 1993";
 export const CONTACT_EMAIL = "sayed.shoeip@addressinv.com";
-export const CONTACT_WHATSAPP_LINK = "https://wa.me/201014681993";
+/** WhatsApp sales line only — call uses CONTACT_PHONE. */
+export const CONTACT_WHATSAPP_LINK = "https://wa.me/201142728780";
 /** Anchors reservation links to the enquiry form section on `/contact`. */
 export const CONTACT_INTEREST_FORM_HASH = "interest-form";
 
