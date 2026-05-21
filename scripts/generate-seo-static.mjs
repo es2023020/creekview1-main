@@ -23,7 +23,7 @@ function loadDotEnv() {
 
 loadDotEnv();
 
-const site = (process.env.VITE_SITE_URL || "https://your-domain.vercel.app").replace(
+const site = (process.env.VITE_SITE_URL || "https://creekview1.vercel.app/").replace(
   /\/$/,
   "",
 );
