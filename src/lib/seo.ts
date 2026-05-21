@@ -263,8 +263,8 @@ export function globalHead() {
   return {
     meta: [
       { charSet: "utf-8" },
+      // ✅ Google Search Console HTML tag verification
       { name: "google-site-verification", content: "KKqHI6f16sJkQXYhHeMt4LyHpCQU7FMkFgkS35OAlWU" },
-      { name: "google-site-verification", content: "QG0oNSDXgTeg8hdJvuCtsh6Nt4dMAOQ79YHSn-jywO0" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "author", content: SITE.brand },
       { name: "publisher", content: SITE.brand },
